@@ -4,7 +4,55 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_description",
+						"type": "string"
+					}
+				],
+				"name": "createTask",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					}
+				],
+				"name": "readTask",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,11 +81,11 @@
 	},
 	"sources": {
 		"contracts/TaskContract.sol": {
-			"keccak256": "0x524bad8c28fe4c21090df165528f481eba4404574b20d2b1309a6b8cc703b049",
+			"keccak256": "0x4c7bb1450509d84a58bbe380ba7bab5c903376e482be3280572d8534964b5489",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://5cd9fabc4f30f8dd49b30076fb1a6c18b10971296acc2f4edb4410c2e507b928",
-				"dweb:/ipfs/QmdcsHL8oewYD23bnjP5BjwH8qHqwRYre9zbtmTqMpcVm5"
+				"bzz-raw://f663cdc459f9f6bb7f9b10def4861086a61aa4208adbcfc355ec5be2c51dfdbc",
+				"dweb:/ipfs/QmV7h9UkSLuywsCanG6nsHGmZwgRPGXnkGCquaU4AjiFSm"
 			]
 		}
 	},
