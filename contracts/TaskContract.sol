@@ -38,4 +38,11 @@ contract TaskContract{
         tasks[index].name = _name;
         tasks[index].description = _description;
     }   
+
+    /*Para el "delete", como la blockchain es inmutables no se puede eliminar como tal, pero lo que si podemos hacer
+    es restablecer los valores por defecto o partir el Array por la mitad, quitar un elemento, y volverloa unir de nuevo*/
+    function deleteTask(uint _id) public{
+        uint index = findIndex(_id);
+        delete tasks[index];
+    }
 }

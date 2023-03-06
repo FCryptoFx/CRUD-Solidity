@@ -31,6 +31,19 @@
 						"type": "uint256"
 					}
 				],
+				"name": "deleteTask",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					}
+				],
 				"name": "readTask",
 				"outputs": [
 					{
@@ -104,11 +117,11 @@
 	},
 	"sources": {
 		"contracts/TaskContract.sol": {
-			"keccak256": "0xf99454e01cb2b3a363b70ae00451d7bd88e923693d8c711ab0ad9ec86637ca4e",
+			"keccak256": "0xfa460a65a23cbf9f9b3b0feda598e9c8a86f3d2a199040b5a96f4e49abadaeae",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://d05f7a9c459c86632298469ba453b5748a270bcb4a7d01b2562fc0f7c7b45475",
-				"dweb:/ipfs/Qmb3zuJrUthwHk5DqX3vFXGeSZZKFCoAMS3ZG5DhrBUKan"
+				"bzz-raw://8ce87b6da8e9c1320d6930be64dea1d16b1f1892b137c5f63cf055a2e770266f",
+				"dweb:/ipfs/QmR9PS4XPJ327BsD2n2n4iXwDQxHM8FXYUK3WcTgDUW9pT"
 			]
 		}
 	},
