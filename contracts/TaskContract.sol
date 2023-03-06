@@ -32,4 +32,10 @@ contract TaskContract{
         uint index = findIndex(_id);
         return (tasks[index].id, tasks[index].name, tasks[index].description);
     }
+
+    function updateTask(uint _id, string memory _name, string memory _description) public {
+        uint index = findIndex(_id);
+        tasks[index].name = _name;
+        tasks[index].description = _description;
+    }   
 }

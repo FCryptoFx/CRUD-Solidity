@@ -51,6 +51,29 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_description",
+						"type": "string"
+					}
+				],
+				"name": "updateTask",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -81,11 +104,11 @@
 	},
 	"sources": {
 		"contracts/TaskContract.sol": {
-			"keccak256": "0x4c7bb1450509d84a58bbe380ba7bab5c903376e482be3280572d8534964b5489",
+			"keccak256": "0xf99454e01cb2b3a363b70ae00451d7bd88e923693d8c711ab0ad9ec86637ca4e",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://f663cdc459f9f6bb7f9b10def4861086a61aa4208adbcfc355ec5be2c51dfdbc",
-				"dweb:/ipfs/QmV7h9UkSLuywsCanG6nsHGmZwgRPGXnkGCquaU4AjiFSm"
+				"bzz-raw://d05f7a9c459c86632298469ba453b5748a270bcb4a7d01b2562fc0f7c7b45475",
+				"dweb:/ipfs/Qmb3zuJrUthwHk5DqX3vFXGeSZZKFCoAMS3ZG5DhrBUKan"
 			]
 		}
 	},
